@@ -1,0 +1,36 @@
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.vscode/
+
+# Build outputs
+bin/
+obj/
+out/
+
+# Dependencies
+packages/
+node_modules/
+
+# Logs & Debugging
+*.log
+logs/
+appsettings.Development.json
+
+# Database
+*.mdf
+*.ldf
+*.db
+
+# Entity Framework Migrations
+Migrations/
+
+# User secrets (segredos da aplicação)
+secrets.json
+.env
+
+# Docker
+docker-compose.override.yml
+.dockerignore
+
